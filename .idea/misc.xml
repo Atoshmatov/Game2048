@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_0.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_1024.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_128.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_131072.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_16.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_16384.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_2.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_2048.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_256.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_32.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_32768.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_4.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_4096.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_512.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_64.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_65536.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_8.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/bg_item_8192.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/main_style_1.xml" value="0.2645" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/main_style_2.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/main_style_3.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/drawable/main_style_4.xml" value="0.202" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/layout/screen_game.xml" value="0.259375" />
+        <entry key="..\:/Play_Market/newPlayMerket/game2048/app/src/main/res/layout/screen_main.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

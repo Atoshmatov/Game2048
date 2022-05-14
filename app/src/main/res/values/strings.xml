@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Game2048</string>
+    <string name="_2048">2048</string>
+    <string name="new_1">New</string>
+    <string name="undo">Undo</string>
+    <string name="play">Play</string>
+    <string name="about">About</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="you_win">You win!</string>
+    <string name="restart">Restart</string>
+    <string name="home">Home</string>
+    <string name="restart_game">Restart game?</string>
+
+    <string name="text_current_score">Score\n%1$d</string>
+    <string name="text_best_result">Best score\n%1$d</string>
+    <string name="game_over">Game Over</string>
+
+</resources>

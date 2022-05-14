@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--    main_screen_color-->
+    <color name="main_screen_bg_color">#FBF8EF</color>
+    <color name="main_screen_2048">#ECCB5A</color>
+    <color name="main_screen_score_best">#3D3A33</color>
+    <color name="main_screen_new_undo">#F95E42</color>
+    <color name="main_screen_game_bg_color">#A08F7F</color>
+
+    <!--    -->
+    <!--    number_color-->
+    <color name="number_0">#C9BCAC</color>
+    <color name="number_2">#EDDFC4</color>
+    <color name="number_4">#EDE0C8</color>
+    <color name="number_8">#F4B17A</color>
+    <color name="number_16">#F59663</color>
+    <color name="number_32">#F67D62</color>
+    <color name="number_64">#F65E39</color>
+    <color name="number_128">#EDCE73</color>
+    <color name="number_256">#EDC964</color>
+    <color name="number_512">#EDC651</color>
+    <color name="number_1024">#EEC744</color>
+    <color name="number_2048">#ECC230</color>
+    <color name="number_4096">#FE3D3E</color>
+    <color name="number_8192">#FF2021</color>
+    <color name="number_16384">#FF2021</color>
+    <color name="number_32768">#FF2021</color>
+    <color name="number_65536">#FF2021</color>
+    <color name="number_131072">#FD201A</color>
+    <!--    -->
+</resources>
