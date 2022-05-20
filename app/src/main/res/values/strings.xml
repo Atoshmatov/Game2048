@@ -5,6 +5,7 @@
     <string name="undo">Undo</string>
     <string name="play">Play</string>
     <string name="about">About</string>
+    <string name="exit">Exit</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
     <string name="you_win">You win!</string>
@@ -15,5 +16,6 @@
     <string name="text_current_score">Score\n%1$d</string>
     <string name="text_best_result">Best score\n%1$d</string>
     <string name="game_over">Game Over</string>
+    <string name="description">It\'s a type of “sliding block puzzle” — think Threes!, on which 2048 is based, or the old-timey game klotski — that\'s played on an almost Sudoku-like grid. Like Sudoku, it also involves some math. The object of the game is to combine the numbers displayed on the tiles until you reach 2048.\n Created by Alimardon\n GITA Dasturchilar Academiyasi</string>
 
 </resources>

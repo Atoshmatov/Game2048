@@ -6,6 +6,7 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
+import android.view.WindowManager
 import android.widget.TextView
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.fragment.app.Fragment
@@ -37,6 +38,7 @@ class GameScreen : Fragment(R.layout.screen_game), GameContract.View {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        requireActivity().window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         subscribeViewBinding(binding)
         presenter.initGame()
     }

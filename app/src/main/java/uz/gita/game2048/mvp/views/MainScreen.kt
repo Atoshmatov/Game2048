@@ -3,8 +3,10 @@ package uz.gita.game2048.mvp.views
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
+import android.view.WindowManager
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -12,7 +14,6 @@ import uz.gita.game2048.R
 import uz.gita.game2048.databinding.ScreenMainBinding
 import uz.gita.game2048.mvp.contract.MainContract
 import uz.gita.game2048.mvp.presenter.MainPresenter
-import uz.gita.game2048.utils.getBackgroundByValue
 
 class MainScreen : Fragment(R.layout.screen_main), MainContract.View {
     private var _binding: ScreenMainBinding? = null
@@ -30,12 +31,19 @@ class MainScreen : Fragment(R.layout.screen_main), MainContract.View {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        requireActivity().window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         subscribeViewBinding()
     }
 
     private fun subscribeViewBinding() = with(binding) {
         cardPlay.setOnClickListener {
             presenter.onClickPlay()
+        }
+        cardAbout.setOnClickListener {
+            presenter.onClickAbout()
+        }
+        exit.setOnClickListener {
+            requireActivity().finish()
         }
     }
 
@@ -44,8 +52,16 @@ class MainScreen : Fragment(R.layout.screen_main), MainContract.View {
     }
 
     override fun popUpAboutDialog() = with(binding) {
-        cardAbout.setOnClickListener {
-            aboutView.visibility = VISIBLE
+        aboutView.visibility = VISIBLE
+        home.setOnClickListener {
+            aboutView.visibility = GONE
         }
     }
+
+    override fun showAboutDialog() {
+        presenter.onClickAbout()
+    }
+
+
+
 }
