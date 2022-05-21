@@ -6,7 +6,7 @@
     app:startDestination="@id/mainScreen">
     <fragment
         android:id="@+id/mainScreen"
-        android:name="uz.gita.game2048.mvp.views.MainScreen"
+        android:name="uz.gita.game20481220.mvp.views.MainScreen"
         android:label="screen_main"
         tools:layout="@layout/screen_main" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameScreen"
-        android:name="uz.gita.game2048.mvp.views.GameScreen"
+        android:name="uz.gita.game20481220.mvp.views.GameScreen"
         android:label="screen_game"
         tools:layout="@layout/screen_game" />
 </navigation>
